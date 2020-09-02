@@ -20,7 +20,7 @@ correct=False # this is a flag that we will use shortly, when we take the input 
 isbn_input=0 # this is the variable that will hold the user's input
 # now we define a loop in which we take the isbn number from the user. We put it in a loop so that, if an error were to occur, it would show the appropriate message and let the user try again.
 while correct!=True: #here's where the correct flag is used. We say correct!=True, which means that the value of correct can be anything but True.
-	try: #this is the main try block. This is the first test that we perform. The reason we have a try block is that we can figure out if the user has entered a string and not have the program display a traceback error, which is not user-friendly, but more importantly, a huge security rik.
+	try: #this is the main try block. This is the first test that we perform. The reason we have a try block is that we can figure out if the user has entered a string and not have the program display a traceback error, which is not user-friendly, but more importantly, a huge security risk.
 		isbn_input=int(input("Enter an ISBN number: ")) #we take the input from the user
 	except: # this block will define what the program should do if an exception occurs.
 		print("Oops. Invalid input. Please enter an ISBN number, which is an integer.") #this is our error message
