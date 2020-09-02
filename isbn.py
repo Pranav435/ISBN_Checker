@@ -11,7 +11,7 @@ This happens because the last digit in the number is a check digit. Each ISBN nu
 """
 isbn_check
 Input: an ISBN number, that is, a 13 digit non-negative number.
-Output: 1 if the number is valid, 0 if it is not.
+Output: True if the number is valid, False if it is not.
 Error codes:
 -1: Negative number.
 -2: Number too short or too long.
@@ -64,6 +64,6 @@ def isbn_check(isbn_number):
 
 #now, the final check is implemented
 	if total%10==0:
-		return 1
+		return True
 	else:
-		return 0
+		return False

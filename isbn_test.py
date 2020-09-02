@@ -44,7 +44,7 @@ while correct!=True: #here's where the correct flag is used. We say correct!=Tru
 isbn_input=int(isbn_input) #casts it back
 result=isbn.isbn_check(isbn_input) #now we run the isbn_input variable through the function to check the validity.
 #the final part of our venture is to print the appropriate messages.
-if result==1: #the number is valid
+if result==True: #the number is valid
 	print("Congratulations! The ISBN number is Valid!") #appropriate message
 else:
 	print("Oops. The number is not valid. Please check the ISBN number and try again.") #appropriate error message
