@@ -27,21 +27,20 @@ while correct!=True: #here's where the correct flag is used. We say correct!=Tru
 		continue #we let the user try again
 #the following lines of code will only execute if the user enters an integer.
 #the following tests will ensure that the user enters a number in the ISBN format, which is a 13 digit positive integer.
-#to do this, we first convert the integer into a string. We could use the error codes, but that is a work in progress as of the time of writing, and is yet to be refined.
 
-	if isbn_input<0: #the number is not positive.
+#To do this, we use the error codes in the isbn.pyy file. Please refer to that file to learn more. First though, to get at the values, we run the isbn_input variable through the isbn_check function
+	result=isbn.isbn_check(isbn_input) #runs the variable through the function and stores the result in result
+	if result==-1: #the number is not positive.
 		print("Oops. The ISBN number is not a positive integer. Please enter a positive integer and try again.") #appropriate error message
 		continue #we let the user try again
 #the following lines will only execute  if the above if condition has completed.
-	isbn_input=str(isbn_input)
-	if len(isbn_input)<13 or len(isbn_input) > 13: #number too short or too long
+	if result==-2: #number too short or too long
 		print("Oops. The number is not of the ISBN format, which is a 13 digit positive number. Please check the length of the ISBN number and try again.") #error message
 		continue #we let the user try again
 #the following line only executes if all the above conditions return false, or if the user has entered a valid ISBN number.
 	correct=True #we exit the loop
 
-#now we run the input through the function. But first, we have to convert it back to an int
-isbn_input=int(isbn_input) #casts it back
+#Now, to be safe, we run the variable isbn_check through the function again.
 result=isbn.isbn_check(isbn_input) #now we run the isbn_input variable through the function to check the validity.
 #the final part of our venture is to print the appropriate messages.
 if result==True: #the number is valid
