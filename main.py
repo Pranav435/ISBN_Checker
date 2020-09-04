@@ -24,13 +24,13 @@ while True: #our input loop, or driver loop
 		choice="" #re-initializes the choice variable, ready for use by the user
 
 #second condition
-	if choice=="f" or choice=="F": #file input
+	elif choice=="f" or choice=="F": #file input
 		file_isbn_test.file_isbn_test() #this initiates the file_isbn_test function
 		time.sleep(1) #we wait for the user to read the output and the computer to breathe
 		choice="" #we re-initialize the choice variable
 
 #third condition
-	if choice=="e" or choice=="E": #the user chose to exit
+	elif choice=="e" or choice=="E": #the user chose to exit
 		print("Exitting.") #prints a quick exit message
 		time.sleep(1) #puts the program to sleep one last time, letting the compiler collect garbage
 		break #breaks out of the loop, exitting the program
