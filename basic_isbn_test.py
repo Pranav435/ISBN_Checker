@@ -26,7 +26,7 @@ def basic_isbn_test(): #this is the defining statement.
 #the following lines of code will only execute if the user enters an integer.
 #the following tests will ensure that the user enters a number in the ISBN format, which is a 13 digit positive integer.
 
-#To do this, we use the error codes in the isbn.pyy file. Please refer to that file to learn more. First though, to get at the values, we run the isbn_input variable through the isbn_check function
+#To do this, we use the error codes in the isbn.py file. Please refer to that file to learn more. First though, to get at the values, we run the isbn_input variable through the isbn_check function
 		result=isbn.isbn_check(isbn_input) #runs the variable through the function and stores the result in result
 		if result==-1: #the number is not positive.
 			print("Oops. The ISBN number is not a positive integer. Please enter a positive integer and try again.") #appropriate error message

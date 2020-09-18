@@ -14,7 +14,7 @@ def file_isbn_test(): #definition statement
 	isbn_string="" #the string that will hold the coersed version of our number
 	correct=False #flag that we will use when taking input
 #now we get into the input
-#we will, as usual, take input using a while loop so as to let the user try again if there was an eerror.
+#we will, as usual, take input using a while loop so as to let the user try again if there was an error.
 	while correct==False: #our while loop definition
 		try:
 			file_input=input("Enter the name of the file to open: ") #this is our input function

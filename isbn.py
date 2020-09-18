@@ -21,9 +21,9 @@ def isbn_check(isbn_number):
 
 #the following few lines are declarations of variables that our function will then use.
 	isbn=[] #the list on which the main validity check of the ISBN number will take place
-	odd_total=0 #an oxiliary variable that will help in the validity check
-	even_total=0 #another oxiliary variable
-	total=0 # a third oxiliary or helper variable that will help in step 3 of the algorithm.
+	odd_total=0 #an auxiliary variable that will help in the validity check
+	even_total=0 #another auxiliary variable
+	total=0 # a third auxiliary or helper variable that will help in step 3 of the algorithm.
 	isbn_string=str(isbn_number) # this variable will be useful in setting up the above isbn list for the operation, but will not have any other use.
 	i=0 # this is our itteration variable throughout the function
 
