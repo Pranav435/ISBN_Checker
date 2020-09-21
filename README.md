@@ -4,6 +4,8 @@ A project to validate ISBN numbers..
 <h2>Implementation</h2>
 <p>This uses an algorithm I calculated on my own. The complete algorithm can be found in isbn.py.</p>
 <h2>Getting this on your machine? </h2>
+<p>Note: You can also watch a video representation of the methods listed below</p>
+<a href="https://youtu.be/yPl70xpz9wQ">Here</a>
 <p>There are two ways to get this repo cloned on your machine.</p>
 <br>
 <p>If you have git installed, follow the steps below:</p>
