@@ -37,3 +37,4 @@ You are free to edit the code in any way you like. Credit where due is appreciat
 <li><a href="https://techwithphoenix.blogspot.com">Blog</a></li>
 <li>Writing an issue on Github</li>
 </ul>
+<p>Hope you find this repo useful!</p>
