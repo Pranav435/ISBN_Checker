@@ -28,3 +28,5 @@ A project to validate ISBN numbers..
 This is meant to be a way to show the new algorithm, as well as be a portal and example for new python learners or new programmers in general to pick up programming constructs easily. Thus, the code is heavy with comments and easy to understand for a layman as well.
 <h2>Editting</h2>
 You are free to edit the code in any way you like. Credit where due is appreciated but not a necessity.
+<h2>Testing?</h2>
+<p>To test this project, run main.py. Alternatively, you can also import the isbn module into your own python file to change things or add to the code.</p>
