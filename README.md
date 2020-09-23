@@ -31,7 +31,7 @@ You are free to edit the code in any way you like. Credit where due is appreciat
 <h2>Testing?</h2>
 <p>To test this project, run main.py. Alternatively, you can also import the isbn module into your own python file to change things or add to the code.</p>
 <h2>Contact?</h2>
-M<p>You can get in touch with me via:</p>
+<p>You can get in touch with me via:</p>
 <ul>
 <li><a href="mailto:pranavsavla2003@gmail.com">E-Mail</a></li>
 <li><a href="https://techwithphoenix.blogspot.com">Blog</a></li>
