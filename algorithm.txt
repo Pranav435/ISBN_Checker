@@ -1,0 +1,17 @@
+Psudocode for the isbn module:
+
+//This is the psudocode version of the isbn algorithm. The same is given in an algorithmic format in isbn.py
+
+//Note: This psudocode does not consist of error checking. That was extra logic, and can be customized based on the need.
+
+funcdef isbn(isbn)
+  //this function takes one input. The isbn number.
+  string isbn_string>tostring(isbn)
+  int result>0
+  int isbn_sums[2]
+  isbn_sums[0]=int(isbn[0])+int(isbn[2])+int(isbn[4])+int(isbn[6])+int(isbn[8])+int(isbn[10])+int(isbn[12])
+  isbn_sums[1]=(int(isbn[1])+int(isbn[3])+int(isbn[5])+int(isbn[7])+int(isbn[9])+int(isbn[11]))*3
+  if (isbn_sums[1]%isbn_sums[0]==0)
+    return True
+  else
+    return False
