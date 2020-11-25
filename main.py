@@ -16,7 +16,7 @@ choice="" #this variable will store the user's choice
 print("Welcome to this ISBN checker tool. This tool, when given an ISBN number either by basic CLI input or by a file, will return its validity.")
 #now we initiate a while loop which will take the input from the user
 while True: #our input loop, or driver loop
-	choice=input("Enter b to initiate the basic CLI input method of the ISBN number, f to initiate the file input method of the ISBN number, or e to exit: ") #the CLI input field
+	choice=input("Enter b to initiate the basic CLI input, f to initiate the file input, or e to exit: ") #the CLI input field
 #now we use a series of conditional statements to check the user's input
 	if choice=="b" or choice=="B": #basic input
 		basic_isbn_test.basic_isbn_test() #the basic_isbn_test function
