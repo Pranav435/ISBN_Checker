@@ -24,6 +24,12 @@ A project to validate ISBN numbers..
 <li>If on MacOS, you can use the terminal to extract the folder</li>
 <li>If on windows, use your favorite software, E.G 7Zip or Winrar, to extract this file into a newly created directory called isbn_checker-Master</li>
 </ol>
+<h2>Running the code</h2>
+<p>You can run the code in two ways:</p>
+<ol>
+<li>Open a command window or terminal window. CD into the directory where you have cloned this repo, and with python installed, run python main.py</li>
+<li>Open the dist folder inside this directory, and click on main.exe</li>
+</ol>
 <h2>Comments?</h2>
 This is meant to be a way to show the new algorithm, as well as be a portal and example for new python learners or new programmers in general to pick up programming constructs easily. Thus, the code is heavy with comments and easy to understand for a layman as well.
 <h2>Editting</h2>
