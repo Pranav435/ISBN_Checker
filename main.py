@@ -34,7 +34,6 @@ while True: #our input loop, or driver loop
 #third condition
 	elif choice=="e" or choice=="E": #the user chose to exit
 		print("Exitting.") #prints a quick exit message
-		time.sleep(1) #puts the program to sleep one last time, letting the compiler collect garbage
 		break #breaks out of the loop, exitting the program
 
 #last condition
