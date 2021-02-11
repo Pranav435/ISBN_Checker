@@ -13,7 +13,7 @@ import time #this lets us use a few time-related functions, the one we'll be usi
 choice="" #this variable will store the user's choice
 #now we will set up a basic CLI, or command line interface, where the user can either type b to initiate the basic isbn test, or f to initiate the file isbn test.
 #First, though, we need to print a welcome message to the console
-print("Welcome to this ISBN checker tool. This tool, when given an ISBN number either by basic CLI input or by a file, will return its validity.")
+print("Welcome to this ISBN checker tool.\nThis tool, when given an ISBN number either by basic CLI input or by a file, will return its validity.")
 #now we initiate a while loop which will take the input from the user
 #first though, just for good measure, let's sleep for one second.
 time.sleep(1)

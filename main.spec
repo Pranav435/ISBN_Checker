@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['C:\\Users\\savla\\OneDrive\\Desktop\\Projects\\tools\\ISBN_Checker'],
+             pathex=['C:\\Users\\savla\\OneDrive\\Desktop\\projects\\tools\\ISBN_Checker'],
              binaries=[],
              datas=[],
              hiddenimports=[],
