@@ -38,10 +38,10 @@ def basic_isbn_test(): #this is the defining statement.
 #the following line only executes if all the above conditions return false, or if the user has entered a valid ISBN number.
 		correct=True #we exit the loop
 
-#Now, to be safe, we run the variable isbn_check through the function again.
+#Now, to be safe, we run the variable isbn_input through the function again.
 	result=isbn.isbn_check(isbn_input) #now we run the isbn_input variable through the function to check the validity.
 #the final part of our venture, in this function, is to print the appropriate messages.
 	if result==True: #the number is valid
 		print("Congratulations! The ISBN number is Valid!") #appropriate message
 	else:
-		print("Oops. The number is not valid. Please check the ISBN number and try again.") #appropriate error message
+		print("Oops.\nThe number is not valid. Please check the ISBN number and try again.") #appropriate error message
